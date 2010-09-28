@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{MEDIA_URL}}/css/style.css" />
+	</head>
+	<body>
+	  I'm base
+		<div id="header">
+      {% block header %}	
+      {% endblock header %}
+    </div>
+    <div id ="content">
+      {% block content %}	
+      {% endblock content %}
+    </div>
+    <div id="footer">
+      {% block footer %}	
+      {% endblock footer %}
+    </div>
+  </body>
+</html>
